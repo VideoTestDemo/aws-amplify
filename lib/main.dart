@@ -95,13 +95,21 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text(
-              'You have pushed the button this many times:',
+            Container(
+              color: Colors.red,
+              width: MediaQuery.of(context).size.width,
+              height: 200,
             ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headlineMedium,
+            Container(
+              color: Colors.blue,
+              width: MediaQuery.of(context).size.width,
+              height: 200,
             ),
+            Container(
+              color: Colors.yellow,
+              width: MediaQuery.of(context).size.width,
+              height: 200,
+            )
           ],
         ),
       ),
