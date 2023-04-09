@@ -9,25 +9,18 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: <Widget>[
-        Container(
-          color: Colors.red,
-          width: 100,
-          height: 200,
-        ),
-        Container(
-          color: Colors.blue,
-          width: 200,
-          height: 200,
-        ),
-        Container(
-          color: Colors.yellow,
-          width: 300,
-          height: 200,
-        )
-      ],
+    return MaterialApp(
+      title: "aws amplify",
+      home: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: const <Widget>[
+          Text(
+            "Flutter web 部署到aws amplify",
+            style: TextStyle(fontSize: 20),
+          ),
+
+        ],
+      ),
     );
   }
 }
