@@ -8,6 +8,3 @@ fi
 # 创建新文件夹
 mkdir "$folder_name"
  cp -R build/web artifacts
-#[[ -d artifacts ]] && rm -r artifacts
-#	mkdir artifacts
-#	cp -R build/web artifacts
