@@ -13,13 +13,13 @@ class MyApp extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
         Container(
-          color: Colors.black,
+          color: Colors.green,
           width: 300,
           height: 200,
         ),
         const SizedBox(height: 20),
         Container(
-          color: Colors.black,
+          color: Colors.red,
           width: 300,
           height: 200,
         ),
